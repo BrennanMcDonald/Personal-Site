@@ -1,0 +1,12 @@
+@import 'colors';
+@import 'media';
+#Projects {
+    display: flex;
+    align-items: center;
+}
+
+.projects {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}

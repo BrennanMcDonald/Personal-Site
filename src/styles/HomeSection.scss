@@ -1,0 +1,8 @@
+@import 'colors';
+@import 'media';
+#HomeSection {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px auto;
+    border-bottom: solid 1px $font-light-grey;
+}

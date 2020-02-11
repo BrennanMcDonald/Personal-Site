@@ -1,0 +1,44 @@
+@import 'media';
+.project {
+    height: 250px;
+    background-color: red;
+    cursor: pointer;
+    &.not-mobile {
+        @media (max-width: $screen-md) {
+            display: none;
+        }
+    }
+    >.hover-span {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0);
+        color: transparent;
+        font-size: 32px;
+        font-weight: 500;
+        @media (max-width: $screen-lg) {
+            grid-template-columns: auto auto;
+        }
+        @media (max-width: $screen-md) {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 32px;
+            font-weight: 500;
+        }
+    }
+    &:hover .hover-span {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}

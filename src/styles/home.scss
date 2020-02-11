@@ -1,0 +1,45 @@
+@import 'media';
+@import 'colors';
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.page {
+    height: 100vh;
+    border-bottom: solid 1px $font-light-grey;
+    @media (max-width: $screen-lg) {
+        grid-template-columns: auto auto;
+    }
+    @media (max-width: $screen-md) {
+        height: auto;
+    }
+}
+
+.hidden-mobile {
+    @media (max-width: $screen-sm) {
+        display: none;
+    }
+}
+
+.hidden-desktop {
+    @media (min-width: $screen-sm) {
+        display: none;
+    }
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-grey {
+    color: $font-grey;
+}
+
+.font-white {
+    color: $white;
+}

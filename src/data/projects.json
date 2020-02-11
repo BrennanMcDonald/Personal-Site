@@ -1,0 +1,36 @@
+[{
+        "title": "uOttahack",
+        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
+        "image": "/img/uottahack.png",
+        "link": "https://2020.uottahack.ca"
+    },
+    {
+        "title": "Garlicoin",
+        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
+        "image": "/img/garlicoin.png",
+        "link": "https://garlicoin.io"
+    },
+    {
+        "title": "FPM.ca",
+        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
+        "image": "/img/fpm.jpg",
+        "link": "http://fpm.ca"
+    },
+    {
+        "title": "AlienStudio",
+        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
+        "image": "/img/alienstudio.png",
+        "link": "https://alienstudio.brennanmcdonald.ca"
+    }, {
+        "title": "Vineries",
+        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
+        "image": "/img/vineries.jpg",
+        "link": "https://vineries.ca"
+    },
+    {
+        "title": "Personal Site",
+        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
+        "image": "/img/personal.png",
+        "link": "https://brennanmcdonald.ca"
+    }
+]

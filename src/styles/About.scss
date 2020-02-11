@@ -1,0 +1,35 @@
+@import 'media';
+@import 'colors';
+#About {
+    display: flex;
+    align-items: center;
+    @media (max-width: $screen-md) {
+        padding-bottom: 150px;
+    }
+    .about-bar {
+        position: relative;
+        .top-triangle {
+            width: 100%;
+            height: 0;
+            top: -100px;
+            position: absolute;
+            border-bottom: 100px solid $font-grey;
+            border-right: calc(100vw - 100px) solid transparent;
+        }
+        .bottom-triangle {
+            width: 100%;
+            height: 0;
+            bottom: -100px;
+            position: absolute;
+            border-right: calc(100vw - 100px) solid $font-grey;
+            border-bottom: 100px solid transparent;
+        }
+        display: flex;
+        align-items: center;
+        height: 500px;
+        min-height: 500px;
+        background-color: $font-grey;
+        width: 100%;
+        text-align: center;
+    }
+}

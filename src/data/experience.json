@@ -1,0 +1,19 @@
+[{
+        "company": "Amazon",
+        "image": "/img/amazon.png",
+        "role": "SDE Intern",
+        "description": "Nulla et massa sit amet orci maximus tristique sit amet in lorem. Curabitur ullamcorper eros sit amet purus pellentesque, at dictum libero facilisis. Morbi tincidunt ut sapien a rhoncus. Nunc facilisis, felis eu finibus facilisis, nunc lectus rutrum risus, a tempus quam magna id nibh. Phasellus molestie metus neque, sed consectetur ante mattis sollicitudin. Morbi mattis sed urna nec efficitur. Nullam facilisis, odio in imperdiet lobortis, dui ex fringilla nisl, eu bibendum odio purus quis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    },
+    {
+        "company": "SSHRC-CRSH",
+        "image": "/img/sshrc.png",
+        "role": "Software Developer",
+        "description": "Nulla et massa sit amet orci maximus tristique sit amet in lorem. Curabitur ullamcorper eros sit amet purus pellentesque, at dictum libero facilisis. Morbi tincidunt ut sapien a rhoncus. Nunc facilisis, felis eu finibus facilisis, nunc lectus rutrum risus, a tempus quam magna id nibh. Phasellus molestie metus neque, sed consectetur ante mattis sollicitudin. Morbi mattis sed urna nec efficitur. Nullam facilisis, odio in imperdiet lobortis, dui"
+    },
+    {
+        "company": "Webility",
+        "image": "/img/webility.png",
+        "role": "Jr. Web Developer",
+        "description": "Nulla et massa sit amet orci maximus tristique sit amet in lorem. Curabitur ullamcorper eros sit amet purus pellentesque, at dictum libero facilisis. Morbi tincidunt ut sapien a rhoncus. Nunc facilisis, felis eu finibus facilisis, nunc lectus rutrum risus, a tempus quam magna id nibh. Phasellus molestie metus neque, sed consectetur ante mattis sollicitudin. Morbi mattis sed urna nec efficitur. Nullam facilisis, odio in imperdiet lobortis, dui"
+    }
+]

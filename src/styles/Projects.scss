@@ -1,0 +1,24 @@
+@import 'colors';
+@import 'media';
+#Experience {
+    display: flex;
+    align-items: center;
+}
+
+.projects {
+    display: grid;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    grid-template-columns: auto auto auto;
+    grid-gap: 75px;
+    // Medium devices (tablets, 768px and up)
+    @media (max-width: $screen-lg) {
+        grid-template-columns: auto auto;
+    }
+    @media (max-width: $screen-md) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        grid-template-columns: auto;
+    }
+}
