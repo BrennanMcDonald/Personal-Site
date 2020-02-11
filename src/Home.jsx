@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import About from './components/About'
 import Projects from './components/Projects'
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 import "./styles/home.scss";
 import "./styles/HomeSection.scss";
@@ -30,6 +31,7 @@ export default class Hello extends React.Component {
                 <div className="page" id="Blog">
 
                 </div>
+                <Footer />
             </div>
         );
     }

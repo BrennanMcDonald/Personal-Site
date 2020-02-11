@@ -3,10 +3,13 @@
 #About {
     display: flex;
     align-items: center;
+    max-width: 100vw;
+    overflow-x: hidden;
     @media (max-width: $screen-md) {
         padding-bottom: 150px;
     }
     .about-bar {
+        max-width: 100vw;
         position: relative;
         .top-triangle {
             width: 100%;
@@ -14,14 +17,14 @@
             top: -100px;
             position: absolute;
             border-bottom: 100px solid $font-grey;
-            border-right: calc(100vw - 100px) solid transparent;
+            border-right: 100vw solid transparent;
         }
         .bottom-triangle {
             width: 100%;
             height: 0;
             bottom: -100px;
             position: absolute;
-            border-right: calc(100vw - 100px) solid $font-grey;
+            border-right: 100vw solid $font-grey;
             border-bottom: 100px solid transparent;
         }
         display: flex;
