@@ -1,8 +1,7 @@
 import React from 'react';
 import '../styles/project.scss'
 
-export default function Project(props) {
-
+export default function Company(props) {
     return (
         <div className="item" style={{paddingBottom:"25px"}}>
             <div className="image">

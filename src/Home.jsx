@@ -28,9 +28,6 @@ export default class Hello extends React.Component {
                 <div className="page" id="Experience">
                     <Experience />
                 </div>
-                <div className="page" id="Blog">
-
-                </div>
                 <Footer />
             </div>
         );

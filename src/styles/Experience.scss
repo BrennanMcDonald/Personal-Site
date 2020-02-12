@@ -10,3 +10,15 @@
     padding-left: 15%;
     padding-right: 15%;
 }
+
+#Blog {
+    display: flex;
+    align-items: center;
+}
+
+.blog-post {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)!important;
+    transition: 0.3s!important;
+    padding: 20px!important;
+}

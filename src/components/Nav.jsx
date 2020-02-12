@@ -21,7 +21,7 @@ export default class JumboCenter extends React.Component {
                             <ul className="nav navbar-nav">
                                 <li><a href="#Projects" className="font-grey">Projects</a></li>
                                 <li><a href="#Experience" className="font-grey">Experience</a></li>
-                                <li><a href="#Blog" className="font-grey">Blog</a></li>
+                                <li><a href="https://blog.brennanmcdonald.ca" className="font-grey">Blog</a></li>
                             </ul>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default class JumboCenter extends React.Component {
                             <ul className="nav navbar-nav">
                                 <li><a href="#Projects" className="font-grey">Projects</a></li>
                                 <li><a href="#Experience" className="font-grey">Experience</a></li>
-                                <li><a href="#Blog" className="font-grey">Blog</a></li>
+                                <li><a href="https://blog.brennanmcdonald.ca" className="font-grey">Blog</a></li>
                             </ul>
                         </div>
                     </div>
