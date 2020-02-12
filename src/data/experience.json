@@ -2,18 +2,18 @@
         "company": "Amazon",
         "image": "/img/amazon.png",
         "role": "SDE Intern",
-        "description": "Nulla et massa sit amet orci maximus tristique sit amet in lorem. Curabitur ullamcorper eros sit amet purus pellentesque, at dictum libero facilisis. Morbi tincidunt ut sapien a rhoncus. Nunc facilisis, felis eu finibus facilisis, nunc lectus rutrum risus, a tempus quam magna id nibh. Phasellus molestie metus neque, sed consectetur ante mattis sollicitudin. Morbi mattis sed urna nec efficitur. Nullam facilisis, odio in imperdiet lobortis, dui ex fringilla nisl, eu bibendum odio purus quis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+        "description": "During my fisrt internship at Amazon, I worked with a team to expand recorded metrics on several <b>java</b> services in order to keep track of useage of technical and business statistics, totalling to almost <b>100,000</b> different data points. At Amazon, I participated in daily standups and bi-monthly scrum planning sessions, voicing my opinion on team related matters and providing on any issues I felt necessary. "
     },
     {
         "company": "SSHRC-CRSH",
         "image": "/img/sshrc.png",
         "role": "Software Developer",
-        "description": "Nulla et massa sit amet orci maximus tristique sit amet in lorem. Curabitur ullamcorper eros sit amet purus pellentesque, at dictum libero facilisis. Morbi tincidunt ut sapien a rhoncus. Nunc facilisis, felis eu finibus facilisis, nunc lectus rutrum risus, a tempus quam magna id nibh. Phasellus molestie metus neque, sed consectetur ante mattis sollicitudin. Morbi mattis sed urna nec efficitur. Nullam facilisis, odio in imperdiet lobortis, dui"
+        "description": "SSHRC-CRSH is the government agency responsible for all federal social science funding, including undergraduate, graduate, and post-graduate research work. At SSHRC-CRSH I work on maintaining the several key websites that clients use to retrieve information. I worked on converting legacy <b>VB</b> code to <b>C#/.NET</b> code as well as maintaing legacy pages. During my time at SSHRC-CRSH I wrote scripts to automate specific workflows which would reduce the time spent on specific tasks by up to <b>90%</b>. "
     },
     {
         "company": "Webility",
         "image": "/img/webility.png",
         "role": "Jr. Web Developer",
-        "description": "Nulla et massa sit amet orci maximus tristique sit amet in lorem. Curabitur ullamcorper eros sit amet purus pellentesque, at dictum libero facilisis. Morbi tincidunt ut sapien a rhoncus. Nunc facilisis, felis eu finibus facilisis, nunc lectus rutrum risus, a tempus quam magna id nibh. Phasellus molestie metus neque, sed consectetur ante mattis sollicitudin. Morbi mattis sed urna nec efficitur. Nullam facilisis, odio in imperdiet lobortis, dui"
+        "description": "Webility is a custom solutions firm that services hundreds of clients in the southern Ontario region. At Webility, I worked on maintaining websites through a custom CMS written in <b>C#</b>. My job also involved writing new websites from scratch in <b>C#</b> using the <b>.NET</b> framework. "
     }
 ]

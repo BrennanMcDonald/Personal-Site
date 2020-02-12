@@ -13,7 +13,7 @@ export default function Company(props) {
                     <span>{props.role}</span>
                 </div>
                 <div className="description">
-                    <p>{props.description}</p>
+                    <p dangerouslySetInnerHTML={{__html: props.description}}></p>
                 </div>
             </div>
         </div>
