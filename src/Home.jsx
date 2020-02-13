@@ -19,12 +19,14 @@ export default class Hello extends React.Component {
                     <Nav />
                     <JumboCenter />
                 </div>
-                <div className="page" id="About">
+                <div className="page background-grey" id="About">
                     <About />
                 </div>
                 <div className="page" id="Projects">
                     <Projects />
                 </div>
+                <hr className="zig" />
+                <hr className="zag" />
                 <div className="page" id="Experience">
                     <Experience />
                 </div>

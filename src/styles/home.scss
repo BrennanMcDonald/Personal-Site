@@ -7,7 +7,6 @@ body {
 
 .page {
     height: 100vh;
-    border-bottom: solid 1px $font-light-grey;
     @media (max-width: $screen-lg) {
         grid-template-columns: auto auto;
     }
@@ -36,6 +35,10 @@ body {
     text-align: center;
 }
 
+.font-black {
+    color: $font-black;
+}
+
 .font-grey {
     color: $font-grey;
 }
@@ -44,6 +47,46 @@ body {
     color: $white;
 }
 
+.background-white {
+    background-color: $white;
+}
+
+.background-grey {
+    background-color: $font-grey;
+}
+
+.background-black {
+    background-color: $font-black;
+}
+
 a.font-white:hover {
     color: $white;
+}
+
+hr.zig,
+hr.zag {
+    border: none;
+    height: 30px;
+    margin: 0 0;
+    max-width: 100vw;
+}
+
+hr.zig {
+    background: linear-gradient(-135deg, #FFF 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, #FFF 10px, rgba(0, 0, 0, 0) 0) 0 2.5px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 20px;
+    z-index: 100;
+    position: relative;
+}
+
+hr.zag {
+    background: linear-gradient(-135deg, $font-grey 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, $font-grey 10px, #FFF 0) 0 2.5px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 20px;
+    z-index: 50;
+    margin-top: -28px;
 }

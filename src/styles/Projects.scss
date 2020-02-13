@@ -10,7 +10,7 @@
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 75px;
     // Medium devices (tablets, 768px and up)
     @media (max-width: $screen-lg) {
