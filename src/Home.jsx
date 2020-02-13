@@ -16,7 +16,7 @@ export default class Hello extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            darkMode: true
+            darkMode: false
         }
     }
     
