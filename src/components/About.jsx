@@ -17,7 +17,7 @@ export default class JumboCenter extends React.Component {
                         Right now I am working on expanding my knowledge in the field of DevOps, Scalability, and Cloud Computing.
                         You can find more information about my experience by viewing my <a className="font-white" href="/resume.pdf"><b>resume</b></a> by clicking the icon above.
                     </p>
-                    <p className="font-white">
+                    <p className="font-white hidden-mobile">
                         I have 2 years of non-internship experience in Computer Science positions and have held multiple internships at both private and public sector companies.
                         Along with my professional experience, I am an avid 'hacker'. This meaning I attend and host hackathons throughout the year. I have travelled all across
                         North America to participate in and learn more about hackathons.
