@@ -7,5 +7,5 @@ export default function Project(props) {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
     }
-    return (<div className={props.index < 3?"project card":"project card not-mobile"} style={projectStyle}><div onClick={() => window.location.href=props.link} className="hover-span">{props.title}</div></div>)
+    return (<div className={props.index < 4?"project card":"project card not-mobile"} style={projectStyle}><div onClick={() => window.location.href=props.link} className="hover-span">{props.title}</div></div>)
 }

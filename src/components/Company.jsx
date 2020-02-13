@@ -5,7 +5,14 @@ export default function Company(props) {
     return (
         <div className="item" style={{paddingBottom:"25px"}}>
             <div className="image">
-                <img src={props.image} />
+                {
+                    props.darkMode &&
+                    <img src={props.imageDark} />
+                }
+                {
+                    !props.darkMode &&
+                    <img src={props.image} />
+                }
             </div>
             <div className="content">
                 <a className="header">{props.company}</a>

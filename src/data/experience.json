@@ -1,18 +1,21 @@
 [{
         "company": "Amazon",
         "image": "/img/amazon.png",
+        "imageDark": "/img/amazon-dark.png",
         "role": "SDE Intern",
         "description": "During my fisrt internship at Amazon, I created and owned a project to expand recorded metrics on several <b>java</b> services in order to keep track of useage of technical and business statistics, totalling to almost <b>100,000</b> different data points. At Amazon, I participated in daily standups and bi-monthly sprint planning sessions, voicing my opinion on team related matters and providing on any issues I felt necessary. "
     },
     {
         "company": "SSHRC-CRSH",
         "image": "/img/sshrc.png",
+        "imageDark": "/img/sshrc-dark.png",
         "role": "Software Developer",
         "description": "SSHRC-CRSH is the government agency responsible for all federal social science funding, including undergraduate, graduate, and post-graduate research work. At SSHRC-CRSH I work on maintaining the several key websites that clients use to retrieve information. I worked on converting legacy <b>VB</b> code to <b>C#/.NET</b> code as well as maintaing legacy pages. During my time at SSHRC-CRSH I wrote scripts to automate specific workflows which would reduce the time spent on specific tasks by up to <b>90%</b>. "
     },
     {
         "company": "Webility",
         "image": "/img/webility.png",
+        "imageDark": "/img/webility-dark.png",
         "role": "Jr. Web Developer",
         "description": "Webility is a custom solutions firm that services hundreds of clients in the southern Ontario region. At Webility, I worked on maintaining websites through a custom CMS written in <b>C#</b>. My job also involved writing new websites from scratch in <b>C#</b> using the <b>.NET</b> framework. "
     }

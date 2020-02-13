@@ -16,13 +16,13 @@ body {
 }
 
 .hidden-mobile {
-    @media (max-width: $screen-sm) {
+    @media (max-width: $screen-lg) {
         display: none;
     }
 }
 
 .hidden-desktop {
-    @media (min-width: $screen-sm) {
+    @media (min-width: $screen-lg) {
         display: none;
     }
 }
@@ -89,4 +89,32 @@ hr.zag {
     background-size: 10px 20px;
     z-index: 50;
     margin-top: -28px;
+}
+
+.dark-mode {
+    hr.zig,
+    hr.zag {
+        border: none;
+        height: 30px;
+        margin: 0 0;
+        max-width: 100vw;
+    }
+    hr.zig {
+        background: linear-gradient(-135deg, $darkmode-background 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, $darkmode-background 10px, rgba(0, 0, 0, 0) 0) 0 2.5px;
+        background-color: rgba(0, 0, 0, 0);
+        background-position: center bottom;
+        background-repeat: repeat-x;
+        background-size: 10px 20px;
+        z-index: 100;
+        position: relative;
+    }
+    hr.zag {
+        background: linear-gradient(-135deg, $font-white 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, $font-white 10px, $darkmode-background 0) 0 2.5px;
+        background-color: rgba(0, 0, 0, 0);
+        background-position: center bottom;
+        background-repeat: repeat-x;
+        background-size: 10px 20px;
+        z-index: 50;
+        margin-top: -28px;
+    }
 }

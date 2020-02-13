@@ -10,14 +10,28 @@ import Footer from "./components/Footer";
 import "./styles/home.scss";
 import "./styles/HomeSection.scss";
 import "./styles/About.scss";
+import "./styles/DarkMode.scss";
 
 export default class Hello extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            darkMode: true
+        }
+    }
+    
+    toggleDarkMode = () => {
+        this.setState({
+            darkMode: !this.state.darkMode
+        })
+    }
+
     render() {
         return (
-            <div>
+            <div className={this.state.darkMode?"dark-mode":"light-mode"}>
                 <div id="HomeSection">
-                    <Nav />
-                    <JumboCenter />
+                    <Nav toggleDarkMode={this.toggleDarkMode} darkMode={this.state.darkMode} />
+                    <JumboCenter darkMode={this.state.darkMode} />
                 </div>
                 <div className="page background-grey" id="About">
                     <About />
@@ -28,7 +42,7 @@ export default class Hello extends React.Component {
                 <hr className="zig" />
                 <hr className="zag" />
                 <div className="page" id="Experience">
-                    <Experience />
+                    <Experience darkMode={this.state.darkMode} />
                 </div>
                 <Footer />
             </div>

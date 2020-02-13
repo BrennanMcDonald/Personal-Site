@@ -4,7 +4,7 @@
     background-color: red;
     cursor: pointer;
     &.not-mobile {
-        @media (max-width: $screen-md) {
+        @media (max-width: $screen-lg) {
             display: none;
         }
     }

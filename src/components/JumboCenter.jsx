@@ -10,7 +10,7 @@ export default class JumboCenter extends React.Component {
                 <h1>Brennan<br />McDonald</h1>
                 <h2>Computer Science Student</h2>
                 <h2>Freelance Web Developer</h2>
-                <IconBar />
+                <IconBar darkMode={this.props.darkMode} />
             </div>
         );
     }

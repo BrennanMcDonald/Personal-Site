@@ -11,7 +11,7 @@ export default class Experience extends React.Component {
             <div className="ui items container">
                 {
                     experience.map(x => {
-                        return (<Company key={x.company} {...x} />)
+                        return (<Company key={x.company} {...x} darkMode={this.props.darkMode} />)
                     })
                 }
             </div>
