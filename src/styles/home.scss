@@ -1,120 +1,35 @@
 @import 'media';
 @import 'colors';
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', system-ui, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
 }
 
-.page {
-    height: 100vh;
-    @media (max-width: $screen-lg) {
-        grid-template-columns: auto auto;
-    }
-    @media (max-width: $screen-md) {
-        height: auto;
-    }
+[data-theme] {
+    background-color: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.hidden-mobile {
-    @media (max-width: $screen-lg) {
-        display: none;
-    }
+.section-container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 72px 24px;
 }
 
-.hidden-desktop {
-    @media (min-width: $screen-lg) {
-        display: none;
-    }
-}
-
-.roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.font-black {
-    color: $font-black;
-}
-
-.font-grey {
-    color: $font-grey;
-}
-
-.font-white {
-    color: $white;
-}
-
-.background-white {
-    background-color: $white;
-}
-
-.background-grey {
-    background-color: $font-grey;
-}
-
-.background-black {
-    background-color: $font-black;
-}
-
-a.font-white:hover {
-    color: $white;
-}
-
-hr.zig,
-hr.zag {
-    border: none;
-    height: 30px;
-    margin: 0 0;
-    max-width: 100vw;
-}
-
-hr.zig {
-    background: linear-gradient(-135deg, #FFF 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, #FFF 10px, rgba(0, 0, 0, 0) 0) 0 2.5px;
-    background-color: rgba(0, 0, 0, 0);
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    background-size: 10px 20px;
-    z-index: 100;
-    position: relative;
-}
-
-hr.zag {
-    background: linear-gradient(-135deg, $font-grey 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, $font-grey 10px, #FFF 0) 0 2.5px;
-    background-color: rgba(0, 0, 0, 0);
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    background-size: 10px 20px;
-    z-index: 50;
-    margin-top: -28px;
-}
-
-.dark-mode {
-    hr.zig,
-    hr.zag {
-        border: none;
-        height: 30px;
-        margin: 0 0;
-        max-width: 100vw;
-    }
-    hr.zig {
-        background: linear-gradient(-135deg, $darkmode-background 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, $darkmode-background 10px, rgba(0, 0, 0, 0) 0) 0 2.5px;
-        background-color: rgba(0, 0, 0, 0);
-        background-position: center bottom;
-        background-repeat: repeat-x;
-        background-size: 10px 20px;
-        z-index: 100;
-        position: relative;
-    }
-    hr.zag {
-        background: linear-gradient(-135deg, $font-white 10px, rgba(0, 0, 0, 0) 0) 0 2.5px, linear-gradient(135deg, $font-white 10px, $darkmode-background 0) 0 2.5px;
-        background-color: rgba(0, 0, 0, 0);
-        background-position: center bottom;
-        background-repeat: repeat-x;
-        background-size: 10px 20px;
-        z-index: 50;
-        margin-top: -28px;
-    }
+.section-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 40px 0;
 }

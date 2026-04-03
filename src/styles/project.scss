@@ -1,44 +1,62 @@
+@import 'colors';
 @import 'media';
-.project {
-    height: 250px;
-    background-color: red;
-    cursor: pointer;
-    &.not-mobile {
-        @media (max-width: $screen-lg) {
-            display: none;
-        }
+
+.project-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 22px;
+    background-color: var(--card-bg);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+        border-color: var(--accent);
+        box-shadow: var(--shadow);
     }
-    >.hover-span {
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-        background-color: rgba(0, 0, 0, 0);
-        color: transparent;
-        font-size: 32px;
-        font-weight: 500;
-        @media (max-width: $screen-lg) {
-            grid-template-columns: auto auto;
+
+    .project-header {
+        margin-bottom: 10px;
+
+        h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0 0 8px;
+
+            a {
+                color: var(--text);
+                text-decoration: none;
+
+                &:hover {
+                    color: var(--accent);
+                }
+
+                &[href="#"] {
+                    cursor: default;
+                    pointer-events: none;
+                }
+            }
+
+            .project-link-arrow {
+                color: var(--accent);
+                font-size: 13px;
+            }
         }
-        @media (max-width: $screen-md) {
-            background-color: rgba(0, 0, 0, 0.5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 32px;
+
+        .project-stack {
+            display: inline-block;
+            font-size: 11px;
+            color: var(--tag-text);
+            background-color: var(--tag-bg);
+            padding: 2px 8px;
+            border-radius: 4px;
             font-weight: 500;
+            letter-spacing: 0.02em;
         }
     }
-    &:hover .hover-span {
-        background-color: rgba(0, 0, 0, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        font-size: 32px;
-        font-weight: 500;
+
+    .project-description {
+        font-size: 13px;
+        color: var(--text-muted);
+        line-height: 1.65;
+        margin: 0;
     }
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
 }

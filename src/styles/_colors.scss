@@ -1,7 +1,33 @@
+:root {
+    --bg: #ffffff;
+    --bg-alt: #f7f8fa;
+    --text: #111827;
+    --text-muted: #6B7280;
+    --border: #e5e7eb;
+    --accent: #1d4ed8;
+    --tag-bg: #eff6ff;
+    --tag-text: #1d4ed8;
+    --card-bg: #ffffff;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] {
+    --bg: #0d1117;
+    --bg-alt: #161b22;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --border: #30363d;
+    --accent: #58a6ff;
+    --tag-bg: #1c2128;
+    --tag-text: #58a6ff;
+    --card-bg: #161b22;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+// Legacy SCSS variables (kept for any remaining partial imports)
 $font-black: #000000;
 $font-grey: #606C76;
 $font-light-grey: #D4D4D4;
 $font-white: #fff;
 $white: #fff;
-// Darkmode Colors
 $darkmode-background: #1F292E;

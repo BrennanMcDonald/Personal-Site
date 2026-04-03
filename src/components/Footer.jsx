@@ -1,15 +1,17 @@
-import React from "react";
+import React from 'react';
+import '../styles/Footer.scss';
 
-import commit from "../../commit.json"
-
-import '../styles/Footer.scss'
-
-export default class Footer extends React.Component {
-    render() {
-        return (
-            <div className="footer">
-                <p id="PrevCommit">Last Update: {commit.prev_commit} : {commit.date}</p>
+export default function Footer() {
+    return (
+        <footer className="site-footer">
+            <div className="footer-inner">
+                <p>© {new Date().getFullYear()} Brennan McDonald</p>
+                <p>
+                    <a href="https://github.com/BrennanMcDonald" target="_blank" rel="noopener noreferrer">
+                        github.com/BrennanMcDonald
+                    </a>
+                </p>
             </div>
-        );
-    }
+        </footer>
+    );
 }

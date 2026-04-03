@@ -1,22 +1,43 @@
-[{
-        "company": "Amazon",
-        "image": "/img/amazon.png",
-        "imageDark": "/img/amazon-dark.png",
-        "role": "SDE Intern",
-        "description": "During my fisrt internship at Amazon, I created and owned a project to expand recorded metrics on several <b>java</b> services in order to keep track of useage of technical and business statistics, totalling to almost <b>100,000</b> different data points. At Amazon, I participated in daily standups and bi-monthly sprint planning sessions, voicing my opinion on team related matters and providing on any issues I felt necessary. "
+[
+    {
+        "company": "Dropbox",
+        "location": "Vancouver, Canada",
+        "role": "Software Engineer II",
+        "period": "Sept 2022 – Present",
+        "duration": "3 yrs 6 mos",
+        "bullets": [
+            "Worked on the desktop client (Python, TypeScript, Rust) with end-to-end ownership of high-visibility surfaces seen by over 10 million weekly users.",
+            "Helped plan and execute a modernization of the desktop application, migrating 10+ year old legacy code to modern frameworks.",
+            "Optimized data transformation pipelines resulting in >$150k monthly infrastructure savings.",
+            "Created and managed a team-wide monthly metrics review to track and react to trends in user behavior.",
+            "Helped organize an in-person frontend summit for peers to present new developments in frontend work at Dropbox.",
+            "Mentored one intern and one full-time employee, designing projects and providing tangible feedback."
+        ]
     },
     {
-        "company": "SSHRC-CRSH",
-        "image": "/img/sshrc.png",
-        "imageDark": "/img/sshrc-dark.png",
+        "company": "Amazon Inc.",
+        "location": "Vancouver, Canada",
+        "role": "Intern & Software Development Engineer I",
+        "period": "Jun 2019 – Sept 2022",
+        "duration": "3 yrs 3 mos",
+        "bullets": [
+            "Built a Java service on the Configurable Workflows team to automate progression of candidates and new hires.",
+            "Created and owned a React application giving recruiters insight into candidate journeys.",
+            "Visualized complex hiring workflows as interactive graphs using React and D3.",
+            "Increased team service metrics collected by over 100,000 data points; designed dashboards for global services.",
+            "Tested code with JUnit, Jest, and Mockito; participated in regular on-call rotations."
+        ]
+    },
+    {
+        "company": "SSHRC-CSRH",
+        "location": "Ottawa, Canada",
         "role": "Software Developer",
-        "description": "SSHRC-CRSH is the government agency responsible for all federal social science funding, including undergraduate, graduate, and post-graduate research work. At SSHRC-CRSH I work on maintaining the several key websites that clients use to retrieve information. I worked on converting legacy <b>VB</b> code to <b>C#/.NET</b> code as well as maintaing legacy pages. During my time at SSHRC-CRSH I wrote scripts to automate specific workflows which would reduce the time spent on specific tasks by up to <b>90%</b>. "
-    },
-    {
-        "company": "Webility",
-        "image": "/img/webility.png",
-        "imageDark": "/img/webility-dark.png",
-        "role": "Jr. Web Developer",
-        "description": "Webility is a custom solutions firm that services hundreds of clients in the southern Ontario region. At Webility, I worked on maintaining websites through a custom CMS written in <b>C#</b>. My job also involved writing new websites from scratch in <b>C#</b> using the <b>.NET</b> framework. "
+        "period": "Mar 2018 – Jun 2019",
+        "duration": "1 yr 3 mos",
+        "bullets": [
+            "Maintained the back-ends of several government websites and services in C# and .NET.",
+            "Built a React Native app for use by managers and directors at conferences.",
+            "Performed data analysis and created business metrics from SQL databases."
+        ]
     }
 ]

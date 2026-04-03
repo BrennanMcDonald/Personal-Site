@@ -1,0 +1,61 @@
+@import 'colors';
+@import 'media';
+
+#skills {
+    background-color: var(--bg-alt);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.skill-groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 32px;
+
+    @media (max-width: $screen-md) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: $screen-sm) {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+.skill-group {
+    h3 {
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--text-muted);
+        margin: 0 0 12px;
+    }
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.skill-tag {
+    font-size: 12px;
+    color: var(--tag-text);
+    background-color: var(--tag-bg);
+    padding: 3px 9px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.ai-note {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.65;
+    padding: 14px 16px;
+    border-left: 3px solid var(--accent);
+    margin: 0;
+    background-color: var(--card-bg);
+    border-radius: 0 4px 4px 0;
+}

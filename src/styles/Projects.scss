@@ -1,26 +1,17 @@
 @import 'colors';
 @import 'media';
-#Experience {
-    display: flex;
-    align-items: center;
+
+#projects {
+    background-color: var(--bg-alt);
+    border-top: 1px solid var(--border);
 }
 
-.projects {
+.projects-grid {
     display: grid;
-    width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 75px;
-    // Medium devices (tablets, 768px and up)
-    @media (max-width: $screen-lg) {
-        padding-top: 200px;
-        padding-bottom: 200px;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    @media (max-width: $screen-md) {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    @media (max-width: $screen-sm) {
+        grid-template-columns: 1fr;
     }
 }

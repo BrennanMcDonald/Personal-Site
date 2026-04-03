@@ -1,21 +1,19 @@
 import React from "react";
-import Project from '../components/Project';
-
-import "../styles/JumboCenter.scss";
-import '../styles/Projects.scss'
-
+import Project from './Project';
+import '../styles/Projects.scss';
 import project_data from '../data/projects.json';
 
-export default class Projects extends React.Component {
-    render() {
-        return (
-            <div className="projects">
-                {
-                    project_data.map((project,i)=> {
-                        return (<Project key={i} index={i} {...project} />)
-                    })
-                }
+export default function Projects() {
+    return (
+        <section id="projects">
+            <div className="section-container">
+                <h2 className="section-title">Projects</h2>
+                <div className="projects-grid">
+                    {project_data.map((project, i) => (
+                        <Project key={i} {...project} />
+                    ))}
+                </div>
             </div>
-        );
-    }
+        </section>
+    );
 }

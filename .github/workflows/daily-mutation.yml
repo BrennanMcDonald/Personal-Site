@@ -1,0 +1,39 @@
+name: Daily AI Mutation
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # noon UTC every day
+  workflow_dispatch:         # allow manual runs for testing
+
+permissions:
+  contents: write
+
+jobs:
+  mutate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build mutator image
+        run: docker build -t site-mutator ./mutation
+
+      - name: Run mutation
+        run: |
+          docker run --rm \
+            -e ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }} \
+            -v ${{ github.workspace }}:/workspace \
+            site-mutator /workspace
+
+      - name: Commit and push
+        run: |
+          git config user.name  "Claude Mutator"
+          git config user.email "claude-mutator@users.noreply.github.com"
+          git add src/data/projects.json
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit."
+          else
+            git commit -m "chore: daily mutation [$(date -u +%Y-%m-%d)]"
+            git push
+          fi

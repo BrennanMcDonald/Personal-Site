@@ -1,24 +1,78 @@
 @import 'colors';
 @import 'media';
-#Projects {
-    display: flex;
-    align-items: center;
+
+#experience {
+    background-color: var(--bg);
+    border-top: 1px solid var(--border);
 }
 
-.projects {
-    width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
-}
+.company-card {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--border);
 
-#Blog {
-    display: flex;
-    align-items: center;
-}
+    &:last-child {
+        border-bottom: none;
+    }
 
-.blog-post {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)!important;
-    transition: 0.3s!important;
-    padding: 20px!important;
+    .company-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 16px;
+        gap: 16px;
+
+        @media (max-width: $screen-sm) {
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+
+    .company-info {
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 0 0 4px;
+            color: var(--text);
+        }
+
+        .company-location {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+    }
+
+    .company-meta {
+        text-align: right;
+        flex-shrink: 0;
+
+        @media (max-width: $screen-sm) {
+            text-align: left;
+        }
+
+        .company-role {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        .company-period {
+            display: block;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+    }
+
+    .company-bullets {
+        margin: 0;
+        padding: 0 0 0 18px;
+        font-size: 14px;
+        line-height: 1.7;
+        color: var(--text-muted);
+
+        li {
+            margin-bottom: 6px;
+        }
+    }
 }

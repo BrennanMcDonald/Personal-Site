@@ -1,36 +1,26 @@
-[{
-        "title": "uOttahack",
-        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
-        "image": "/img/uottahack.png",
-        "link": "https://2020.uottahack.ca"
+[
+    {
+        "title": "Loci",
+        "stack": "React Native, iOS & Android",
+        "description": "Cross-platform app surfacing nearby content via a custom GeoJSON radius algorithm; backed by a REST API with an admin portal built for data compliance, and a CI/CD pipeline with automated app store submissions.",
+        "link": "#"
     },
     {
-        "title": "Garlicoin",
-        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
-        "image": "/img/garlicoin.png",
-        "link": "https://garlicoin.io"
-    },
-    {
-        "title": "FPM.ca",
-        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
-        "image": "/img/fpm.jpg",
-        "link": "http://fpm.ca"
-    },
-    {
-        "title": "AlienStudio",
-        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
-        "image": "/img/alienstudio.png",
-        "link": "https://alienstudio.brennanmcdonald.ca"
-    }, {
-        "title": "Vineries",
-        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
-        "image": "/img/vineries.jpg",
+        "title": "Vineries.ca",
+        "stack": "React & Node.js",
+        "description": "Winery aggregator with tour booking and a self-serve owner management portal; deployed via a CI/CD pipeline that enforces dependency ordering to guarantee module compatibility.",
         "link": "https://vineries.ca"
     },
     {
-        "title": "Personal Site",
-        "description": "asdfasdfasd fas dfa sdf asdf asdfas dfa sdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf",
-        "image": "/img/personal.png",
-        "link": "https://brennanmcdonald.ca"
+        "title": "Vaccine Passport (SHC)",
+        "stack": "Java & Android",
+        "description": "A native Android application with a custom implementation of the SHC (Smart Health Card) protocol to read/generate QR codes; published to the app store with 5k+ users.",
+        "link": "#"
+    },
+    {
+        "title": "Garlicoin",
+        "stack": "C++ & Node.js",
+        "description": "Satirical cryptocurrency featured in Forbes; $1.5M market cap and $50k+ 24h volume. Modified Litecoin with the \"allium\" ASIC-resistant proof-of-work algorithm.",
+        "link": "https://garlicoin.io"
     }
 ]

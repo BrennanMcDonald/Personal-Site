@@ -1,7 +1,37 @@
-@import 'media';
 @import 'colors';
-#PrevCommit {
-    font-size: 14px;
-    color: $font-grey;
-    margin: 1em;
+@import 'media';
+
+.site-footer {
+    border-top: 1px solid var(--border);
+    background-color: var(--bg);
+
+    .footer-inner {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 28px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: $screen-sm) {
+            flex-direction: column;
+            gap: 6px;
+            text-align: center;
+        }
+
+        p {
+            margin: 0;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        a {
+            color: var(--text-muted);
+            text-decoration: none;
+
+            &:hover {
+                color: var(--accent);
+            }
+        }
+    }
 }

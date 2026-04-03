@@ -42,9 +42,6 @@ module.exports = {
             template: "./public/index.html",
             filename: "./index.html"
         }),
-        new CopyPlugin([
-            { from: 'public', to: '.' },
-        ]),
     ],
     devServer: {
         contentBase: path.join(__dirname, 'public'),
