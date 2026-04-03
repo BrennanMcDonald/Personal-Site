@@ -10,11 +10,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
       with:
-        node-version: 10.x
-    - run: npm install
-    - run: npm run build --if-present
+        node-version: 22.x
+    - run: yarn
+    - run: yarn build --if-present
       env:
         CI: true
     - name: Deploy
