@@ -14,7 +14,7 @@ jobs:
       with:
         node-version: 22.x
     - run: yarn
-    - run: yarn build --if-present
+    - run: yarn build
       env:
         CI: true
     - name: Deploy
